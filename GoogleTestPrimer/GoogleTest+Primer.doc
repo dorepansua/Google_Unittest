@@ -1,0 +1,364 @@
+Date: Fri, 28 Jun 2024 09:09:45 +0000 (UTC)
+Message-ID: <1042569275.217.1719565785861@fcf2c1b3ffd2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_216_971217382.1719565785860"
+
+------=_Part_216_971217382.1719565785860
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GoogleTest Primer</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GoogleTest Primer</h1>
+    <div class=3D"Section1">
+        <p>Tests should be <em>independent</em> and <em>repeatable</em> (l=
+=C3=A2p l=E1=BA=A1i)</p>
+<p>Tests should be well <em>organized(t=E1=BB=95 ch=E1=BB=A9c t=E1=BB=91t)<=
+/em> and reflect the structure(ph=E1=BA=A3n =C3=A1nh c=E1=BA=A5u tr=C3=BAc)=
+ of the tested code</p>
+<p>Tests should be <em>portable(linh d=E1=BB=99ng)</em> and <em>reusable(t=
+=C3=A1i s=E1=BB=AD d=E1=BB=A5ng)</em>.</p>
+<p>When tests fail, they should provide as much <em>information</em> about =
+the problem as possible.</p>
+<p>The testing framework should liberate test writers from <strong>housekee=
+ping </strong>chores and let them <strong>focus </strong>on the <strong>tes=
+t </strong><em><strong>content </strong>( d=E1=BB=ABng b=E1=BA=AFt =C4=91i =
+d=E1=BB=8Dn code, h=C3=A3y =C4=91=E1=BB=83 tui test th=C3=B4i)</em></p>
+<p>Tests should be <em>fast</em> (n=C3=A0y ph=E1=BB=A5 thu=E1=BB=99c v=C3=
+=A0o =C3=BD =C4=91=E1=BA=A7u, test ph=E1=BA=A3i d=E1=BB=99c l=E1=BA=ADp).</=
+p>
+<p></p>
+<p></p>
+<p></p>
+<p>What is the test cas, test suite</p>
+<p>Test suit is grouping related tests,<br>
+A <em>test suite</em> contains one or many tests.</p>
+<p>Test case: one test case in a test suite</p>
+<p></p>
+<h2 id=3D"GoogleTestPrimer-BasicConcepts">Basic Concepts</h2>
+<p><em>assertions</em>: An assertion=E2=80=99s result can be <em>success</e=
+m>, <em>nonfatal failure</em>, or <em>fatal failure</em></p>
+<p>If a fatal failure occurs, it aborts the current function; otherwise the=
+ program continues normally.</p>
+<p>A <em>test suite</em> contains one or many tests.<br>
+A <em>test program</em> can contain multiple test suites.</p>
+<p><code>ASSERT_</code> : stop:</p>
+<p><code>EXPECT_</code>: fail, but continue : <code>EXPECT_TRUE</code>, EXP=
+ECT_FALSE, EXPECT_EQ, EXPECT_NE, EXPECT_LT=E2=80=A6<br><a class=3D"external=
+-link" data-card-appearance=3D"inline" href=3D"https://google.github.io/goo=
+gletest/reference/assertions.html" rel=3D"nofollow">https://google.github.i=
+o/googletest/reference/assertions.html</a></p>
+<p></p>
+<h2 id=3D"GoogleTestPrimer-SimpleTests">Simple Tests</h2>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Use the <code>TEST()</code> macro to define and name a test function</p>
+<p>--d=C3=A0nh cho test fun b=C3=ACnh th=C6=B0=E1=BB=9Dng th=C3=B4i, c=C3=
+=B2n test class th=C3=AC d=C3=B9ng Test_F<br><a class=3D"external-link" hre=
+f=3D"https://google.github.io/styleguide/cppguide.html#Function_Names" rel=
+=3D"nofollow">naming functions and classes</a>.</p>
+</div>
+</div>
+<h2 id=3D"GoogleTestPrimer-TestFixtures:UsingtheSameDataConfigurationforMul=
+tipleTests">Test Fixtures: Using the Same Data Configuration for Multiple T=
+ests</h2>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<ol start=3D"1">
+<li>
+<p>Derive a class from <code>testing::Test</code> . Start its body with <co=
+de>protected:</code>, as we=E2=80=99ll want to access fixture members from =
+sub-classes.</p></li>
+<li>
+<p>Inside the class, declare any objects you plan to use.</p></li>
+<li>
+<p>If necessary, write a default constructor or <code>SetUp()</code> functi=
+on to prepare the objects for each test. A common mistake is to spell <code=
+>SetUp()</code> as <code>Setup()</code> with a small <code>u</code> - Use <=
+code>override</code> in C++11 to make sure you spelled it correctly.</p></l=
+i>
+<li>
+<p>If necessary, write a destructor or <code>TearDown()</code> function to =
+release any resources you allocated in <code>SetUp()</code> . To learn when=
+ you should use the constructor/destructor and when you should use <code>Se=
+tUp()/TearDown()</code>, read the <a class=3D"external-link" href=3D"https:=
+//google.github.io/googletest/faq.html#CtorVsSetUp" rel=3D"nofollow">FAQ</a=
+>.</p></li>
+<li>
+<p>If needed, define subroutines(ch=C6=B0=C6=A1ng tr=C3=ACnh con) for your =
+tests to share.</p></li>
+</ol>
+</div>
+</div>
+<p>For each test defined with <code>TEST_F()</code>, GoogleTest will create=
+ a <em>fresh</em> test fixture at runtime, immediately initialize it via <c=
+ode>SetUp()</code>, run the test, clean up by calling <code>TearDown()</cod=
+e>, and then delete the test fixture.</p>
+<p><em>v=E1=BA=ADy suy ra l=C3=A0 1 Test_F n=C3=B3 =C4=91=E1=BB=81u new sau=
+ =C4=91=C3=B3 delete, 1 Test_F =C4=91=E1=BB=99c l=E1=BA=ADp ch=E1=BB=A9 ko =
+ph=E1=BA=A3i gom n=C3=B3 l=C3=A0m 1 test suite</em><br><em>n=C3=B3 ch=C3=BA=
+ =C3=BD n=C3=A8. </em><br>
+Note that different tests in the same test suite have different test fixtur=
+e objects, and GoogleTest always deletes a test fixture before it creates t=
+he next one. Any changes one test makes to the fixture do not affect other =
+tests.</p>
+<h2 id=3D"GoogleTestPrimer-InvokingtheTests">Invoking the Tests</h2>
+<p>When invoked, the <code>RUN_ALL_TESTS()</code> macro:</p>
+<ul>
+<li>
+<p>Saves the state of all GoogleTest flags.</p></li>
+<li>
+<p>Creates a test fixture object for the first test.</p></li>
+<li>
+<p>Initializes it via <code>SetUp()</code>.</p></li>
+<li>
+<p>Runs the test on the fixture object.</p></li>
+<li>
+<p>Cleans up the fixture via <code>TearDown()</code>.</p></li>
+<li>
+<p>Deletes the fixture.</p></li>
+<li>
+<p>Restores the state of all GoogleTest flags.</p></li>
+<li>
+<p>Repeats the above steps for the next test, until all tests have run.</p>=
+</li>
+</ul>
+<p>If a fatal failure happens the subsequent steps will be skipped.</p>
+<p></p>
+<p></p>
+<p></p>
+<h2 id=3D"GoogleTestPrimer-Writingthemain()Function">Writing the main() Fun=
+ction</h2>
+<p>nh=E1=BB=9B <code>return RUN_ALL_TESTS();</code> l=C3=A0 xong</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_216_971217382.1719565785860--
